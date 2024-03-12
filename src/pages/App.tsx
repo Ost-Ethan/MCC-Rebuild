@@ -1,13 +1,11 @@
 import './Landing.css'
-
+import coloredLogo from '../assets/Mass_Commercial_Cleaning_FINAL-color-transparent background.png'
 function App() {
 
   return (
-    <>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <div className=' h-5'>
+      <img src={coloredLogo}></img>
+    </div>
   )
 }
 
