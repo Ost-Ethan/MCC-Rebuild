@@ -1,13 +1,10 @@
 import "./Landing.css";
 
-import Header from "../components/Header";
-
-function App() {
+export default function Landing() {
   return (
     <div>
-  <Header/>
+      I am the Landing Page!
     </div>
   );
 }
 
-export default App;
