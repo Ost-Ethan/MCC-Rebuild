@@ -1,0 +1,11 @@
+.submit-btn {
+  border: 1px black solid;
+}
+
+.submit-btn:hover {
+  background-color: rgb(216, 216, 216);
+}
+
+input {
+  border: 1px black solid;
+}
