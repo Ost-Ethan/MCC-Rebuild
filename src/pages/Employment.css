@@ -13,3 +13,15 @@ input, select {
 .hide {
   display: none;
 }
+
+.required-field {
+  background-color: rgb(255, 140, 140);
+}
+
+.asterisk {
+  color:rgb(255, 92, 92)
+}
+
+.email-sent {
+  background-color: rgb(197, 236, 197);
+}

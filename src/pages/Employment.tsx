@@ -58,7 +58,9 @@ export default function Employment() {
       <form className={formClassName} onSubmit={handleSubmit(onSubmit)}>
         <div>
           <label>
-            <strong>Name*</strong>
+            <strong>
+              Name <span className="asterisk">*</span>
+            </strong>
           </label>
         </div>
         <div>
@@ -67,9 +69,13 @@ export default function Employment() {
             placeholder="First"
             {...register("first", { required: true })}
           />
-          {errors.first && <span>This field is required</span>}
+          {errors.first && (
+            <span className="required-field">This field is required</span>
+          )}
           <input placeholder="Last" {...register("last", { required: true })} />
-          {errors.last && <span>This field is required</span>}
+          {errors.last && (
+            <span className="required-field">This field is required</span>
+          )}
         </div>
 
         <div>
@@ -170,24 +176,32 @@ export default function Employment() {
         </div>
 
         <label>
-          <strong>Phone*</strong>
+          <strong>
+            Phone <span className="asterisk">*</span>
+          </strong>
         </label>
         <div>
           {" "}
           <input {...register("phone", { required: true })} />
-          {errors.phone && <span>This field is required</span>}
+          {errors.phone && (
+            <span className="required-field">This field is required</span>
+          )}
         </div>
         <div>
-          <span>Phone*</span>
+          <span>Phone</span>
         </div>
 
         <label>
-          <strong>Email*</strong>
+          <strong>
+            Email <span className="asterisk">*</span>
+          </strong>
         </label>
         <div>
           {" "}
           <input type="email" {...register("email", { required: true })} />
-          {errors.email && <span>This field is required</span>}
+          {errors.email && (
+            <span className="required-field">This field is required</span>
+          )}
         </div>
         <div>
           <span>Email</span>
@@ -199,14 +213,19 @@ export default function Employment() {
             type="email"
             {...register("emailConfirm", { required: true })}
           />
-          {errors.emailConfirm && <span>This field is required</span>}
+          {errors.emailConfirm && (
+            <span className="required-field">This field is required</span>
+          )}
         </div>
         <div>
           <span>Confirm Email</span>
         </div>
 
         <label>
-          <strong>Are you authorized to work in the US?*</strong>
+          <strong>
+            Are you authorized to work in the US?{" "}
+            <span className="asterisk">*</span>
+          </strong>
         </label>
         <div>
           {" "}
@@ -215,16 +234,22 @@ export default function Employment() {
             <option value="Yes">Yes</option>
             <option value="No">No</option>
           </select>
-          {errors.workAuth && <span>This field is required</span>}
+          {errors.workAuth && (
+            <span className="required-field">This field is required</span>
+          )}
         </div>
 
         <label>
-          <strong>Towns/Area preferred for work *</strong>
+          <strong>
+            Towns/Area preferred for work <span className="asterisk">*</span>
+          </strong>
         </label>
         <div>
           {" "}
           <input {...register("areaPreferred", { required: true })} />
-          {errors.areaPreferred && <span>This field is required</span>}
+          {errors.areaPreferred && (
+            <span className="required-field">This field is required</span>
+          )}
         </div>
 
         <label>
