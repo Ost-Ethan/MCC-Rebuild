@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { useForm, SubmitHandler } from "react-hook-form";
 import emailjs from "emailjs-com";
 import "./Employment.css";
@@ -20,6 +21,9 @@ type Inputs = {
 };
 
 export default function Employment() {
+  const [sentClassName, setSentClassName] = useState("email-sent hide");
+  const [formClassName, setFormClassName] = useState("form");
+
   const {
     register,
     handleSubmit,
@@ -37,6 +41,8 @@ export default function Employment() {
         // below is "YOUR_USER_ID"/public key
         "Bv07-mPb90fppYjnE"
       );
+      setSentClassName("email-sent");
+      setFormClassName("form hide");
       console.log("Email sent successfully");
     } catch (error) {
       console.error("Email sending failed:", error);
@@ -45,7 +51,11 @@ export default function Employment() {
 
   return (
     <div>
-      <form onSubmit={handleSubmit(onSubmit)}>
+      <div className={sentClassName}>
+        Application sent successfully. We'll contact you if you are a good
+        potential match.
+      </div>
+      <form className={formClassName} onSubmit={handleSubmit(onSubmit)}>
         <div>
           <label>
             <strong>Name*</strong>

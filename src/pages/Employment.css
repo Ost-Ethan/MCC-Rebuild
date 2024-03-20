@@ -9,3 +9,7 @@
 input, select {
   border: 1px black solid;
 }
+
+.hide {
+  display: none;
+}
