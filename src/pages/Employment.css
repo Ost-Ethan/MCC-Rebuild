@@ -6,6 +6,6 @@
   background-color: rgb(216, 216, 216);
 }
 
-input {
+input, select {
   border: 1px black solid;
 }
