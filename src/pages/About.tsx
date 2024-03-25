@@ -11,7 +11,7 @@ export default function About() {
             Massachusetts is that we are employee-owned. When you do business
             with us, you are directly supporting our cleaners and community.
           </p>
-          <button className="btn">Contact Us &rsaquo;</button>
+          <button className="btn">CONTACT US &rsaquo;</button>
         </div>
       </section>
       <section className="about-caring-section">
