@@ -26,7 +26,7 @@ export default function About() {
           </p>
           <button className="btn">CALL FOR A QUOTE &rsaquo;</button>
         </div>
-      </section>
+      </section>      
     </div>
   );
 }

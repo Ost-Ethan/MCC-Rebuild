@@ -6,13 +6,14 @@ import { FaTimes } from "react-icons/fa";
 import coloredLogo from "../assets/Mass_Commercial_Cleaning_FINAL-1cREV-SCREEN.svg";
 import { useState } from 'react';
 import { Outlet, Link} from 'react-router-dom';
+import './Header.css'
 
 export function Header () {
 const [menuOpen, setMenuOpen] = useState(false);
 
 return(
   <>
-<div className="HEADER relative justify-between bg-[#005067]">
+<div className="HEADER relative justify-between bg-[#005067] header">
       <div className="HEAD-LEFT CONTENTS flex justify-between mx-60">
         <div className="LOGO flex h-36 object-contain">
           <img className="self-start mt-6" src={coloredLogo}></img>
