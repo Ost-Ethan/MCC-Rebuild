@@ -7,7 +7,7 @@
   background-image: url("../assets/111-Thatcher-Day-1-roback-3.jpg");
   background-size: cover;
   background-position: center;
-  background-attachment: fixed; 
+  background-attachment: fixed;
 }
 
 .about-heading-section {
@@ -25,7 +25,7 @@
   background-color: rgb(245, 136, 0);
   color: white;
   padding: 10px 20px;
-  border-radius: 5px;  
+  border-radius: 5px;
   font-weight: 600;
   transition: background-color 0.2s ease;
 }
@@ -66,7 +66,6 @@
 .about-caring-text {
   padding: 4rem;
   font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
-  /* width: 80%; */
   margin: 0 200px;
 }
 
@@ -93,7 +92,7 @@
 
 .slide {
   width: 100%;
-  max-width: auto; /* Adjust as needed */
+  max-width: auto;
   height: 600px;
 }
 
@@ -133,4 +132,29 @@
 
 .preview-container img.active {
   border: 2px solid blue;
+}
+
+/* ******************
+-------TEAM PICS-----
+****************** */
+.team-pic-single {
+  display: flex;
+  margin: 0 auto 30px auto;
+}
+
+.pics-double-container {
+  margin: auto;
+}
+
+.pics-double-container div {
+  display: flex;
+  justify-content: center;
+}
+
+.team-pic-double {
+  height: 500px;
+}
+
+.pics-double-container img {
+  margin: 0 30px 80px 30px;
 }

@@ -26,9 +26,9 @@ export default function About() {
   };
 
   useEffect(() => {
-    const interval = setInterval(nextSlide, 3000); // Change slide every 3 seconds
+    const interval = setInterval(nextSlide, 3000);
     return () => clearInterval(interval);
-  }, []); // Run only once on component mount
+  }, []);
 
   return (
     <div className="background-image">
@@ -114,17 +114,19 @@ export default function About() {
             className="team-pic-single"
           />
         </div>
-        <div>
-          <img
-            src="https://masscocleaning.wpengine.com/wp-content/uploads/DSC_9878@2x.jpg"
-            alt="mass comm team posing"
-            className="team-pic-double"
-          />
-          <img
-            src="https://masscocleaning.wpengine.com/wp-content/uploads/DSC_9858@2x.jpg"
-            alt="mass comm team posing"
-            className="team-pic-double"
-          />
+        <div className="pics-double-container">
+          <div>
+            <img
+              src="https://masscocleaning.wpengine.com/wp-content/uploads/DSC_9878@2x.jpg"
+              alt="mass comm team posing"
+              className="team-pic-double"
+            />
+            <img
+              src="https://masscocleaning.wpengine.com/wp-content/uploads/DSC_9858@2x.jpg"
+              alt="mass comm team posing"
+              className="team-pic-double"
+            />
+          </div>
         </div>
       </section>
     </div>
