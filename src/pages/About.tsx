@@ -2,6 +2,8 @@ import "./About.css";
 import { useState, useEffect } from "react";
 import "../assets/111-Thatcher-Day-1-roback-11.jpg";
 import "../assets/111-Thatcher-Day-1-roback-3.jpg";
+import "../components/GetInTouch.tsx"
+import GetInTouch from "../components/GetInTouch.tsx";
 
 const images = [
   "https://masscocleaning.wpengine.com/wp-content/uploads/DSC_0028.jpg",
@@ -129,6 +131,8 @@ export default function About() {
           </div>
         </div>
       </section>
+      
+      <GetInTouch />
     </div>
   );
 }

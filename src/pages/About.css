@@ -24,7 +24,7 @@
 .btn {
   background-color: rgb(245, 136, 0);
   color: white;
-  padding: 10px 20px;
+  padding: 10px 40px;
   border-radius: 5px;
   font-weight: 600;
   transition: background-color 0.2s ease;
@@ -50,6 +50,7 @@
 .about-heading-text p,
 .about-caring-text p {
   margin-bottom: 30px;
+  line-height: 1.75;
 }
 
 .about-caring-section {
@@ -66,7 +67,7 @@
 .about-caring-text {
   padding: 4rem;
   font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
-  margin: 0 200px;
+  margin: 0 240px;
 }
 
 .about-caring-text button {
