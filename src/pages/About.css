@@ -66,8 +66,71 @@
 .about-caring-text {
   padding: 4rem;
   font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  /* width: 80%; */
+  margin: 0 200px;
 }
 
 .about-caring-text button {
   box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.history-and-about {
+  text-align: left;
+}
+
+/* ******************
+-------SLIDER -------
+****************** */
+.slider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slide-container {
+  position: relative;
+}
+
+.slide {
+  width: 100%;
+  max-width: auto; /* Adjust as needed */
+  height: 600px;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  color: black;
+  font-size: 24px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
+.preview-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.preview-container img {
+  width: 120px;
+  height: auto;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.preview-container img.active {
+  border: 2px solid blue;
 }
