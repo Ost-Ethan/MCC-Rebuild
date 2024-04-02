@@ -67,7 +67,7 @@
 .about-caring-text {
   padding: 4rem;
   font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
-  margin: 0 240px;
+  margin: 0 15%;
 }
 
 .about-caring-text button {
@@ -158,4 +158,75 @@
 
 .pics-double-container img {
   margin: 0 30px 80px 30px;
+}
+
+/* ************************
+-----MOBILE STYLING-------
+************************ */
+@media only screen and (max-width: 1400px) {
+  .team-pic-single {
+    display: flex;
+    max-width: 75%;
+  }
+
+  .pics-double-container img {
+    margin: 0 auto;
+  }
+  .pics-double-container div {
+    display: block;
+  }
+
+  .team-pic-double {
+    width: 75%;
+    height: auto;
+    padding-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .about-caring-text h2 {
+    font-size: 2.2rem;
+  }
+
+  .about-heading-text {
+    padding: 13% 15% 10% 10%;
+  }
+
+  .about-caring-text h2 {
+    margin-top: 50px;
+  }
+
+  .about-heading-section {
+    height: 45rem;
+  }
+
+  .about-caring-text {
+    padding: 1rem;
+    font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+    margin: 0 10%;
+  }
+
+  .about-caring-text button {
+    margin-bottom: 40px;
+  }
+}
+
+@media only screen and (max-width: 765px) {
+  .about-caring-text h2 {
+    font-size: 1.8rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .width-sixty {
+    width: 100%;
+  }
+
+  .form-container {
+    padding: 80px 10%;
+  }
+
+  .about-caring-text button {
+    padding: 10px 30px;
+  }
 }

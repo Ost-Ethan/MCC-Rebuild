@@ -129,7 +129,8 @@ export default function About() {
               className="team-pic-double"
             />
           </div>
-        </div>
+            
+          </div>
       </section>
       
       <GetInTouch />
