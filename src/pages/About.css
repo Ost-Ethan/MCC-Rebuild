@@ -19,6 +19,7 @@
 .about-caring-section {
   background-color: white;
   position: relative;
+  padding-bottom: 50px;
 }
 
 .btn {
@@ -228,5 +229,24 @@
 
   .about-caring-text button {
     padding: 10px 30px;
+  }
+
+  .slide-container {
+    width: 60%;
+  }
+
+  .slide-container img {
+    height: auto;
+    width: auto;
+  }
+
+  .preview-container {
+    flex-wrap: wrap;
+  }
+
+  .preview-container img {
+    width: 15%;
+    margin-top: 5px;
+    margin-bottom: 30px;
   }
 }
