@@ -1,5 +1,5 @@
 .get-in-touch-section {
-  border-top: 20px solid  rgb(245, 136, 0);
+  border-top: 20px solid rgb(245, 136, 0);
   background-color: rgb(240, 240, 240);
   height: 600px;
   display: flex;
@@ -7,7 +7,7 @@
   align-items: center;
 }
 
-.content-box {
+.get-in-touch-content {
   text-align: center;
   margin: auto;
   width: 90%;
@@ -22,7 +22,7 @@ h2 {
   margin-bottom: 10px;
 }
 
-p {  
+p {
   font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
   margin-bottom: 60px;
 }
@@ -36,4 +36,3 @@ p {
   transition: background-color 0.2s ease;
   box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.2);
 }
-
