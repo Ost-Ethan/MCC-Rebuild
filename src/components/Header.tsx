@@ -13,7 +13,7 @@ const [menuOpen, setMenuOpen] = useState(false);
 
 return(
   <>
-<div className="HEADER relative justify-between bg-[#005067] header">
+<div className="HEADER justify-between bg-[#005067] header sticky top-0">
       <div className="HEAD-LEFT CONTENTS flex justify-between mx-60">
         <div className="LOGO flex h-36 object-contain">
           <img className="self-start mt-6" src={coloredLogo}></img>
