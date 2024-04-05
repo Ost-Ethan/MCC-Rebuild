@@ -11,11 +11,11 @@ export default function App(){
     return(
         
             <Routes>
-                <Route path="/" element={<Header />}>
+                <Route path="/MCC-Rebuild/" element={<Header />}>
                     <Route index element={<Landing/>}/>
-                    <Route path="/about" element={<About/>}/>
-                    <Route path="/contact" element={<Contact/>}/>
-                    <Route path="/employment" element={<Employment/>}/>
+                    <Route path="/MCC-Rebuild/about" element={<About/>}/>
+                    <Route path="/MCC-Rebuild/contact" element={<Contact/>}/>
+                    <Route path="/MCC-Rebuild//employment" element={<Employment/>}/>
                 </Route>
             </Routes>
     );

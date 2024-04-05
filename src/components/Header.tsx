@@ -41,10 +41,10 @@ return(
       { menuOpen &&
       <div className='MENU flex flex-col pl-12 text-justify fixed right-0 top-0 h-full w-1/6 bg-[#276969] text-white font-bold text-lg'>
         <div className='self-end' onClick={() => setMenuOpen(false)}><FaTimes size={50}/></div>
-          <Link to='/'><div className='mt-10 mb-10'>HOME</div></Link>
-          <Link to='/about'><div className='mb-10'>ABOUT</div></Link>
-          <Link to='/employment'><div className='mb-10'>EMPLOYMENT</div></Link>
-          <Link to='/contact'><div className='mb-10'>CONTACT</div></Link>
+          <Link to='/MCC-Rebuild/'><div className='mt-10 mb-10'>HOME</div></Link>
+          <Link to='/MCC-Rebuild/about'><div className='mb-10'>ABOUT</div></Link>
+          <Link to='/MCC-Rebuild/employment'><div className='mb-10'>EMPLOYMENT</div></Link>
+          <Link to='/MCC-Rebuild/contact'><div className='mb-10'>CONTACT</div></Link>
       </div>
 }
     </div>
