@@ -1,6 +1,7 @@
 import "./Landing.css";
-import "./../assets/111-Thatcher-Day-1-roback-11.jpg";
 import { IoCheckmarkCircleOutline } from "react-icons/io5";
+import '../assets/House-Icon.jpg'
+
 
 export default function Landing() {
   return (
@@ -23,15 +24,15 @@ export default function Landing() {
       </div>
       <div className="flex bg-white h-[34rem] justify-evenly content-center pt-24 text-center">
         <div>
-          <img src="src\assets\House-Icon.jpg"></img>
+          <img src="./src/assets/House-Icon.jpg"></img>
           <p className="pt-20">Affordable & Consistent</p>
         </div>
         <div>
-          <img src="src\assets\Building-Icon.jpg"></img>
+          <img src="./src/assets/Building-Icon.jpg"></img>
           <p className="pt-20">Employee-Owned</p>
         </div>
         <div>
-          <img src="src\assets\Tools-Icon.jpg"></img>
+          <img src="./src/assets/Tools-Icon.jpg"></img>
           <p className="pt-20">Management Oversight</p>
         </div>
       </div>
@@ -86,7 +87,7 @@ export default function Landing() {
           <div className="IMAGETILEONE flex flex-col justify-center text-center">
             <img
               className="h-[280px] w-[550px] object-cover"
-              src="src\assets\111-Thatcher-Day-1-roback-11.jpg"
+              src="./src/assets/111-Thatcher-Day-1-roback-11.jpg"
             ></img>
             <div>Affordable & Consistent</div>
             <div className="w-[24rem] self-center">
@@ -98,7 +99,7 @@ export default function Landing() {
           <div className="IMAGETILETWO  flex flex-col justify-center text-center">
             <img
               className="h-[280px] w-[550px] object-cover"
-              src="src\assets\AdobeStock_327396949_Preview@2x.jpg"
+              src="./src/assets/AdobeStock_327396949_Preview@2x.jpg"
             ></img>
             <div>Responsive & Reliable</div>
             <div className="w-[24rem] self-center">
@@ -112,7 +113,7 @@ export default function Landing() {
           <div className="IMAGETILEONE basis-1/2  flex flex-col items-center text-center">
             <img
               className="h-[280px] w-[550px] object-cover"
-              src="src\assets\AdobeStock_568417620_Preview@2x.jpg"
+              src="./src/assets/AdobeStock_568417620_Preview@2x.jpg"
             ></img>
             <div>Employee-Owned</div>
             <div className="w-[32rem] self-center">
@@ -126,7 +127,7 @@ export default function Landing() {
           <div className="IMAGETILETWO basis-1/2 items-center flex flex-col text-center">
             <img
               className="h-[280px] w-[550px] object-cover"
-              src="src\assets\giorgio-trovato-XxAy813D66I-unsplash@2x.jpg"
+              src="./src/assets/giorgio-trovato-XxAy813D66I-unsplash@2x.jpg"
             ></img>
             <div>Technology-Supported</div>
             <div className="w-[24rem] self-center">
