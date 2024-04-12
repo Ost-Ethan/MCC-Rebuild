@@ -118,3 +118,36 @@ label {
 .instructions {
   margin-bottom: 30px;
 }
+
+/* ************************
+-----MOBILE STYLING-------
+************************ */
+@media only screen and (max-width: 980px) {
+  .about-heading-text h2 {
+    font-size: 2.2rem;
+  }
+
+  .about-heading-text {
+    padding: 13% 15% 10% 10%;
+  }
+
+  .about-heading-section {
+    height: 45rem;
+  }
+}
+
+@media only screen and (max-width: 765px) {
+  .about-heading-text h2 {
+    font-size: 1.8rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .width-sixty {
+    width: 100%;
+  }
+
+  .form-container {
+    padding: 80px 10%;
+  }
+}
