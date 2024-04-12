@@ -1,5 +1,8 @@
 import "./Landing.css";
 import { IoCheckmarkCircleOutline } from "react-icons/io5";
+import house from "/House-Icon.jpg";
+import building from "/Building-Icon.jpg";
+import tools from "/Tools-Icon.jpg";
 
 
 export default function Landing() {
@@ -23,15 +26,15 @@ export default function Landing() {
       </div>
       <div className="flex bg-white h-[34rem] justify-evenly content-center pt-24 text-center">
         <div>
-          <img src="/House-Icon.jpg"></img>
+          <img src={house}></img>
           <p className="pt-20">Affordable & Consistent</p>
         </div>
         <div>
-          <img src="/Building-Icon.jpg"></img>
+          <img src={building}></img>
           <p className="pt-20">Employee-Owned</p>
         </div>
         <div>
-          <img src="/Tools-Icon.jpg"></img>
+          <img src={tools}></img>
           <p className="pt-20">Management Oversight</p>
         </div>
       </div>
