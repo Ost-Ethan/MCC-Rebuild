@@ -3,11 +3,14 @@ import { IoCheckmarkCircleOutline } from "react-icons/io5";
 import house from "/House-Icon.jpg";
 import building from "/Building-Icon.jpg";
 import tools from "/Tools-Icon.jpg";
-
+import imagetile1 from "/111-Thatcher-Day-1-roback-11.jpg";
+import imagetile2 from "/AdobeStock_327396949_Preview@2x.jpg";
+import imagetile3 from "/AdobeStock_568417620_Preview@2x.jpg";
+import imagetile4 from "/giorgio-trovato-XxAy813D66I-unsplash@2x.jpg";
 
 export default function Landing() {
   return (
-    <div className="relative top-0 left-0 w-full h-full bg-fixed bg-cover bg-center bg-[url('./assets/111-Thatcher-Day-1-roback-3.jpg')]">
+    <div className="relative top-0 left-0 w-full h-full bg-fixed bg-cover bg-center bg-[url('/111-Thatcher-Day-1-roback-3.jpg')]">
       <div className="FIRSTSECTION relative bg-white bg-opacity-85 h-[64rem]">
         <div className="relative pt-[22%] pr-[25%] pb-[10%] pl-[10%]">
           <h2 className=" text-[#005067] text-5xl font-bold mb-3">
@@ -89,7 +92,7 @@ export default function Landing() {
           <div className="IMAGETILEONE flex flex-col justify-center text-center">
             <img
               className="h-[280px] w-[550px] object-cover"
-              src="./src/assets/111-Thatcher-Day-1-roback-11.jpg"
+              src={imagetile1}
             ></img>
             <div>Affordable & Consistent</div>
             <div className="w-[24rem] self-center">
@@ -101,7 +104,7 @@ export default function Landing() {
           <div className="IMAGETILETWO  flex flex-col justify-center text-center">
             <img
               className="h-[280px] w-[550px] object-cover"
-              src="./src/assets/AdobeStock_327396949_Preview@2x.jpg"
+              src={imagetile2}
             ></img>
             <div>Responsive & Reliable</div>
             <div className="w-[24rem] self-center">
@@ -115,7 +118,7 @@ export default function Landing() {
           <div className="IMAGETILEONE basis-1/2  flex flex-col items-center text-center">
             <img
               className="h-[280px] w-[550px] object-cover"
-              src="./src/assets/AdobeStock_568417620_Preview@2x.jpg"
+              src={imagetile3}
             ></img>
             <div>Employee-Owned</div>
             <div className="w-[32rem] self-center">
@@ -129,7 +132,7 @@ export default function Landing() {
           <div className="IMAGETILETWO basis-1/2 items-center flex flex-col text-center">
             <img
               className="h-[280px] w-[550px] object-cover"
-              src="./src/assets/giorgio-trovato-XxAy813D66I-unsplash@2x.jpg"
+              src={imagetile4}
             ></img>
             <div>Technology-Supported</div>
             <div className="w-[24rem] self-center">
